@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>contactServlet</servlet-name>
+  	<display-name>contactServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.contactServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>phoneServlet</servlet-name>
+  	<display-name>phoneServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.phoneServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>emailServlet</servlet-name>
+  	<display-name>emailServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.emailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>contactServlet</servlet-name>
+  	<url-pattern>/contactServlet</url-pattern>
+  </servlet-mapping>
+  
+
+  <servlet-mapping>
+  	<servlet-name>phoneServlet</servlet-name>
+  	<url-pattern>/phoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>emailServlet</servlet-name>
+  	<url-pattern>/emailServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
